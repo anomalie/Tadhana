@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'firebase-tools' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose request where is /firebase-tools
+5 verbose request registry https://registry.npmjs.org/
+6 verbose request id def587968c7989cd
+7 verbose url raw /firebase-tools
+8 verbose url resolving [ 'https://registry.npmjs.org/', './firebase-tools' ]
+9 verbose url resolved https://registry.npmjs.org/firebase-tools
+10 verbose request where is https://registry.npmjs.org/firebase-tools
+11 info trying registry request attempt 1 at 16:35:49
+12 verbose etag "9CQNH8DB9DGBEKLXGCAXMAF1L"
+13 http GET https://registry.npmjs.org/firebase-tools
+14 http 200 https://registry.npmjs.org/firebase-tools
+15 silly registry.get cb [ 200,
+15 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 silly registry.get     etag: '"CFMSJVHF32VAT3K1LLTQAKR02"',
+15 silly registry.get     'content-type': 'application/json',
+15 silly registry.get     'content-encoding': 'gzip',
+15 silly registry.get     'cache-control': 'max-age=300',
+15 silly registry.get     'content-length': '9938',
+15 silly registry.get     'accept-ranges': 'bytes',
+15 silly registry.get     date: 'Mon, 29 Aug 2016 23:35:50 GMT',
+15 silly registry.get     via: '1.1 varnish',
+15 silly registry.get     age: '0',
+15 silly registry.get     connection: 'keep-alive',
+15 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+15 silly registry.get     'x-cache': 'HIT',
+15 silly registry.get     'x-cache-hits': '1',
+15 silly registry.get     'x-timer': 'S1472513750.564082,VS0,VE351',
+15 silly registry.get     vary: 'Accept-Encoding' } ]
+16 info outdated updating [ [ '/usr/local/lib',
+16 info outdated     'firebase-tools',
+16 info outdated     '1.1.5',
+16 info outdated     '3.0.7',
+16 info outdated     '3.0.7',
+16 info outdated     'latest' ] ]
+17 verbose install where,what [ '/usr/local/lib', [ 'firebase-tools@3.0.7' ] ]
+18 verbose cache add [ 'firebase-tools@3.0.7', null ]
+19 verbose cache add name=undefined spec="firebase-tools@3.0.7" args=["firebase-tools@3.0.7",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'firebase-tools@3.0.7',
+20 verbose parsed url   path: 'firebase-tools@3.0.7',
+20 verbose parsed url   href: 'firebase-tools@3.0.7' }
+21 verbose cache add name="firebase-tools" spec="3.0.7" args=["firebase-tools","3.0.7"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '3.0.7',
+22 verbose parsed url   path: '3.0.7',
+22 verbose parsed url   href: '3.0.7' }
+23 verbose addNamed [ 'firebase-tools', '3.0.7' ]
+24 verbose addNamed [ '3.0.7', '3.0.7' ]
+25 silly lockFile d90953d3-firebase-tools-3-0-7 firebase-tools@3.0.7
+26 verbose lock firebase-tools@3.0.7 /Users/emiliecorpuz/.npm/d90953d3-firebase-tools-3-0-7.lock
+27 verbose registry.get https://registry.npmjs.org/firebase-tools not expired, no request
+28 silly lockFile d2e4f6da-e-tools-firebase-tools-3-0-7-tgz https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz
+29 verbose lock https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz /Users/emiliecorpuz/.npm/d2e4f6da-e-tools-firebase-tools-3-0-7-tgz.lock
+30 verbose addRemoteTarball [ 'https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz',
+30 verbose addRemoteTarball   'd94e541904b820b3976ec1ab52e5ec09d5820a7b' ]
+31 info retry fetch attempt 1 at 16:35:54
+32 verbose fetch to= /var/folders/b2/t6cjppk91b34wsgdjntw2rw80000gn/T/npm-1121-hH6L53nG/registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz
+33 http GET https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz
+34 http 200 https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz
+35 silly lockFile d2e4f6da-e-tools-firebase-tools-3-0-7-tgz https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz
+36 silly lockFile d2e4f6da-e-tools-firebase-tools-3-0-7-tgz https://registry.npmjs.org/firebase-tools/-/firebase-tools-3.0.7.tgz
+37 silly lockFile d90953d3-firebase-tools-3-0-7 firebase-tools@3.0.7
+38 silly lockFile d90953d3-firebase-tools-3-0-7 firebase-tools@3.0.7
+39 error Error: EACCES, mkdir '/Users/emiliecorpuz/.npm/firebase-tools/3.0.7'
+39 error  { [Error: EACCES, mkdir '/Users/emiliecorpuz/.npm/firebase-tools/3.0.7']
+39 error   errno: 3,
+39 error   code: 'EACCES',
+39 error   path: '/Users/emiliecorpuz/.npm/firebase-tools/3.0.7' }
+40 error Please try running this command again as root/Administrator.
+41 error System Darwin 14.5.0
+42 error command "node" "/usr/local/bin/npm" "update" "-g" "firebase-tools"
+43 error cwd /Users/emiliecorpuz/Documents/Code/Tadhana
+44 error node -v v0.10.33
+45 error npm -v 1.4.28
+46 error path /Users/emiliecorpuz/.npm/firebase-tools/3.0.7
+47 error code EACCES
+48 error errno 3
+49 error stack Error: EACCES, mkdir '/Users/emiliecorpuz/.npm/firebase-tools/3.0.7'
+50 verbose exit [ 3, true ]
